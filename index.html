@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cdn links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- css links -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>FernanDev | Portfolio</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <a href="#" class="navbar__logo"> <img src="assets/fernandev.png" alt="AsmrProg Logo"></a>
+
+        <div class="navbar__menu">
+            <a href="#hero" class="navbar__link">Home</a>
+            <a href="#skills" class="navbar__link">Skills</a>
+            <a href="#project" class="navbar__link">Projects</a>
+            <a href="#about" class="navbar__link">About</a>
+        </div>
+
+        <div class="navbar__actions">
+            <div class="navbar__location">
+                <h5>Bekasi, Indonesia</h5>
+                <p id="clock">Loading...</p>
+            </div>
+        </div>
+
+    </nav>
+
+    <section id="hero" class="hero">
+
+        <div class="hero__content">
+            <img src="assets/profile.jpg" alt="Profile Image" class="hero__image">
+        </div>
+
+        <div class="hero__intro">
+            <p>DANIEL FERNANDO TAMPUBOLON</p><br>
+            <h3>Full Stack Development Beginner</h3>
+            <p>A university student currently focusing on Web Development. I love learning new things and am always open to new opportunities.</p>
+            <div class="hero__actions">
+                <button class="btn">My Resume</button>
+                <button class="btn btn--secondary"><a href="#skills">See My Portfolio</a></button>
+            </div>
+        </div>
+
+        <div class="hero__socials">
+            <a href="https://www.instagram.com/danieltampubolon03_/"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-linkedin-box-line"></i></a>
+            <a href="https://github.com/danieltampubolon29"><i class="ri-github-line"></i></a>
+            <a href="#"><i class="ri-discord-line"></i></a>
+        </div>
+
+    </section>
+
+    <section id="skills" class="skills">
+        
+        <div class="skills__desc">
+            <div class="category__title">
+                <i class="ri-macbook-line"></i>
+                <h4>My Skills</h4>
+            </div>  <br><br>
+            <h3>Evolving as a Web Developer </h3>
+            <p>Continuously learning and expanding my expertise in web development, I have gained proficiency in HTML, CSS, JS, PHP, MySQL, Bootstrap, Laravel and Git, while increasing my understanding of Security on the web.</p>
+
+            <div class="skills__actions">
+                <button class="btn">Work With Me</button>
+                <button class="btn btn--secondary"><a href="#project">See My Projects</a></button>
+            </div>
+        </div>
+
+        <div class="skills__stats">
+            <i class="fa-brands fa-html5"></i>
+            <div class="skill__info">
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <i class="fa-brands fa-js"></i>
+            <div class="skill__info">
+                <i class="fa-brands fa-php"></i>
+            </div>
+            <div class="skill__info">
+                <i class="fa-solid fa-database"></i>
+            </div>
+            <i class="fa-brands fa-bootstrap"></i>
+            <div class="skill__info">
+                <i class="fa-brands fa-git-alt"></i>
+            </div>
+            <i class="fa-brands fa-laravel"></i>
+        </div>
+
+    </section>
+
+    <section id="project" class="showcase">
+
+        <div class="showcase_categories">
+            <section class="category">
+                <div class="category__header">
+                    <div class="category__title">
+                        <i class="ri-macbook-line"></i>
+                        <h4>My Projects</h4>
+                    </div>
+                    <div class="category__desc">
+                        <p>Here are some of the projects I've worked on, reflecting the development of my skills and experience in web development</p>
+                        <a href="#hero"><i class="ri-share-circle-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="category__projects">
+                    <div class="project-card">
+                        <img src="assets/project1.png" alt="Portfolio 1" class="project-card__image">
+                        <div class="project-card__info">
+                            <h5>Company Profile</h5>
+                            <p>September 2022</p>
+                        </div>
+                        <p class="project-card__desc">Project ini adalah company profile yang dibuat dengan teknologi HTML5, CSS, JavaScript & Bootstrap 5.</p>
+                        <a href="https://bintangprakasaindonesia.com/"><button class="btn">View Live Demo</button></a>
+                    </div>
+                    <div class="project-card">
+                        <img src="assets/project2.png" alt="Portfolio 2" class="project-card__image">
+                        <div class="project-card__info">
+                            <h5>KMJP Web Aplication</h5>
+                            <p>August 2023</p>
+                        </div>
+                        <p class="project-card__desc">Aplikasi Web yang digunakan untuk manajemen data Koperasi Mandiri Jaya Pratama,Project Ini dibuat dengan teknologi
+                            HTML5, CSS, JavaScript, FrameWork Laravel 11, Bootstrap 5. 
+                        </p>
+                        <button class="btn">View Live Demo</button>
+                    </div>
+                    
+                </div>
+            </section>
+        </div>
+
+    </section>
+
+    <section id="about" class="career">
+        <div class="career__jobs">
+            <h3>Work Experience</h3>
+            <div class="job">
+                <i class="fa-solid fa-computer"></i>
+                <div class="job__info">
+                    <h5>Operational System & IT Support at <span>Koperasi Mandiri Jaya Pratama</span></h5>
+                    <p>February 2024 - Present</p>
+                </div>
+            </div>
+            <div class="job">
+                <i class="fa-solid fa-headset"></i> 
+                <div class="job__info">
+                    <h5>Business Transformation (Admin) at <span>PT.Bintang Prakasa Indonesia</span></h5>
+                    <p>July 2022 - December 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="career__awards">
+            <h3>Education & Awards</h3>
+            <div class="award">
+                <div>
+                    <i class="ri-javascript-line"></i>
+                    <div class="award__info">
+                        <h5>Informatics Engineering Studens AT <span>Esa Unggul University</span></h5>
+                        <p>January 2023 - Present</p>
+                    </div>
+                </div>
+                <a href="#"><i class="ri-external-link-line"></i></a>
+            </div>
+            <div class="award">
+                <div>
+                    <i class="ri-award-fill"></i>
+                    <div class="award__info">
+                        <h5>IT Essentials 8 at <span>Cisco Networking Academy</span></h5>
+                        <p>February 2025</p>
+                    </div>
+                </div>
+                <a href="#"><i class="ri-external-link-line"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact">
+        <h5>Got a Projects?</h5>
+        <h2>Let's Work Together!</h2>
+        <button class="btn">Send Message</button>
+    </section>
+
+    <div class="footer">
+        <div class="footer__brand">
+            <img src="assets/fernandev.png" alt="Logo" width="50" height="auto">
+            <p>© 2024 FernanDev</p>
+        </div>
+        <div class="footer__links">
+            <a href="#hero">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+        </div>
+    </div>
+    <script>
+        function updateClock() {
+              const now = new Date();
+              let [hours, minutes, seconds] = [now.getHours(), now.getMinutes(), now.getSeconds()];
+              const amPm = hours >= 12 ? 'PM' : 'AM';
+              hours = (hours % 12 || 12).toString().padStart(2, '0');
+              minutes = minutes.toString().padStart(2, '0');
+              seconds = seconds.toString().padStart(2, '0');
+              document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds} ${amPm}`;
+          }
+          setInterval(updateClock, 1000);
+          updateClock();
+      </script>
+</body>
+
+</html>
